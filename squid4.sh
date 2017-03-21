@@ -145,8 +145,8 @@ chmod +x /etc/squid/store-id.pl
 chmod +x /etc/squid/ad_block.txt
 chmod +x /etc/squid/blok.txt
 chmod +x /etc/init.d/squid
-chown -R proxy:proxy /cache/cache/
-chmod -R 777 /cache/cache/
+chown -R proxy:proxy /{1,2,3}/
+chmod -R 777 /cc-{1,2,3}/
 
 cd /var/log/squid/
 touch access.log 
